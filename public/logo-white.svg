@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pinNavyWhiteBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00A3FF" />
+      <stop offset="100%" stop-color="#06466B" />
+    </linearGradient>
+    <linearGradient id="checkGoldWhiteBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFDE6A" />
+      <stop offset="100%" stop-color="#F5C52E" />
+    </linearGradient>
+  </defs>
+
+  <!-- Location Pin with Golden Checkmark -->
+  <g transform="translate(10, 8)">
+    <!-- Navy Blue Location Pin with subtle light border for dark bg -->
+    <path d="M42 4 C24.327 4 10 18.327 10 36 C10 56 42 84 42 84 C42 84 74 56 74 36 C74 18.327 59.673 4 42 4 Z" 
+          fill="#06466B" 
+          stroke="#38BDF8" 
+          stroke-width="1.5" />
+    
+    <circle cx="42" cy="35" r="19" fill="#092B46" />
+
+    <!-- Golden Yellow Checkmark -->
+    <path d="M29 36 L38 46 L58 24" 
+          fill="none" 
+          stroke="url(#checkGoldWhiteBg)" 
+          stroke-width="7" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+  </g>
+
+  <!-- Brand Typography -->
+  <!-- ONPOINT in White -->
+  <text x="104" y="52" 
+        font-family="'Poppins', 'Plus Jakarta Sans', 'Inter', sans-serif" 
+        font-size="44" 
+        font-weight="800" 
+        letter-spacing="2" 
+        fill="#FFFFFF">
+    ONPOINT
+  </text>
+
+  <!-- EMPLOYMENT SERVICES in Golden Yellow -->
+  <text x="106" y="78" 
+        font-family="'Plus Jakarta Sans', 'Inter', sans-serif" 
+        font-size="16.5" 
+        font-weight="700" 
+        letter-spacing="4.5" 
+        fill="#F5C52E">
+    EMPLOYMENT SERVICES
+  </text>
+</svg>
+

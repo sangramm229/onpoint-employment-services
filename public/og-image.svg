@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#041829" />
+      <stop offset="40%" stop-color="#092B46" />
+      <stop offset="100%" stop-color="#06466B" />
+    </linearGradient>
+    <linearGradient id="pinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#092B46" />
+      <stop offset="100%" stop-color="#06466B" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD54F" />
+      <stop offset="100%" stop-color="#F5C52E" />
+    </linearGradient>
+  </defs>
+
+  <!-- Deep Corporate Navy Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)" />
+
+  <!-- Subtle Radial Ambient Glows -->
+  <circle cx="1050" cy="150" r="300" fill="#F5C52E" opacity="0.12" filter="blur(60px)" />
+  <circle cx="150" cy="500" r="280" fill="#06466B" opacity="0.4" filter="blur(70px)" />
+
+  <!-- Top Accent Bar -->
+  <rect x="0" y="0" width="1200" height="8" fill="#F5C52E" />
+
+  <!-- Logo Group -->
+  <g transform="translate(100, 100)">
+    <!-- Pin with golden check -->
+    <g transform="translate(0, 0)">
+      <path d="M50 8 C30 8 14 24 14 44 C14 66 50 94 50 94 C50 94 86 66 86 44 C86 24 70 8 50 8 Z" 
+            fill="#06466B" stroke="#38BDF8" stroke-width="2" />
+      <circle cx="50" cy="42" r="22" fill="#092B46" />
+      <path d="M35 44 L46 56 L68 28" fill="none" stroke="url(#goldGrad)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <text x="110" y="52" font-family="'Poppins', 'Plus Jakarta Sans', sans-serif" font-size="46" font-weight="900" letter-spacing="3" fill="#FFFFFF">
+      ONPOINT
+    </text>
+    <text x="112" y="80" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="16" font-weight="800" letter-spacing="5" fill="#F5C52E">
+      EMPLOYMENT SERVICES
+    </text>
+  </g>
+
+  <!-- Main Headline -->
+  <text x="100" y="270" font-family="'Poppins', sans-serif" font-size="52" font-weight="800" fill="#FFFFFF">
+    Connecting Talent With <tspan fill="#F5C52E">Opportunities</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="100" y="325" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="500" fill="#CBD5E1">
+    Empowering Careers. Connecting Talent. Building Professional Futures.
+  </text>
+
+  <!-- Key Pill Badges -->
+  <g transform="translate(100, 380)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="310" height="50" rx="25" fill="#FFFFFF" fill-opacity="0.1" stroke="#FFFFFF" stroke-opacity="0.2" />
+    <text x="30" y="31" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#F5C52E">
+      📍 Narhe, Pune, Maharashtra
+    </text>
+
+    <!-- Pill 2 -->
+    <rect x="330" y="0" width="280" height="50" rx="25" fill="#FFFFFF" fill-opacity="0.1" stroke="#FFFFFF" stroke-opacity="0.2" />
+    <text x="360" y="31" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">
+      👤 Director: Shalan Hingmire
+    </text>
+
+    <!-- Pill 3 -->
+    <rect x="630" y="0" width="260" height="50" rx="25" fill="#FFFFFF" fill-opacity="0.1" stroke="#FFFFFF" stroke-opacity="0.2" />
+    <text x="660" y="31" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#F5C52E">
+      📞 +91 93597 10076
+    </text>
+  </g>
+
+  <!-- Bottom Strip -->
+  <line x1="100" y1="520" x2="1100" y2="520" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1" />
+  
+  <text x="100" y="560" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="600" fill="#94A3B8">
+    Recruitment &amp; Placement Consultancy • Job Placement • Fresher Recruitment • HR Solutions
+  </text>
+  <text x="960" y="560" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#F5C52E">
+    www.onpointemployments.com
+  </text>
+</svg>
+
