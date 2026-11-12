@@ -9,6 +9,7 @@ import { HeroSection } from '../components/home/HeroSection';
 import { IntroStatsBanner } from '../components/home/IntroStatsBanner';
 import { AudienceSwitcher } from '../components/home/AudienceSwitcher';
 import { WorkflowTimeline } from '../components/home/WorkflowTimeline';
+import { TechRecruitmentHub } from '../components/home/TechRecruitmentHub';
 import { EthicsPledge } from '../components/home/EthicsPledge';
 import { WhyChooseUs } from '../components/home/WhyChooseUs';
 import { AchievementsPreview } from '../components/home/AchievementsPreview';
@@ -68,22 +69,25 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* 5. How We Work / 4-Step Timeline */}
+      {/* 5. How We Work / 6-Step Recruitment Pipeline */}
       <WorkflowTimeline />
 
-      {/* 6. Ethical Placement Pledge */}
+      {/* 6. Modern Recruitment Methodology & Interactive Sourcing Engine */}
+      <TechRecruitmentHub />
+
+      {/* 7. Ethical Placement Pledge */}
       <EthicsPledge />
 
-      {/* 7. Why Choose Onpoint */}
+      {/* 8. Why Choose Onpoint */}
       <WhyChooseUs />
 
-      {/* 8. Achievements & Journey Preview */}
+      {/* 9. Achievements, Verified Metrics & Sector Reach Breakdown */}
       <AchievementsPreview />
 
-      {/* 9. Frequently Asked Questions */}
+      {/* 10. Frequently Asked Questions */}
       <FAQSection />
 
-      {/* 10. Homepage Final Contact CTA Strip */}
+      {/* 11. Homepage Final Contact CTA Strip */}
       <section className="py-16 bg-gradient-to-br from-[#041829] via-[#092B46] to-[#06466B] text-white relative overflow-hidden border-t-4 border-brand-yellow">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8 text-center lg:text-left">

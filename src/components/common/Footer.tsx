@@ -58,7 +58,7 @@ export const Footer: React.FC = () => {
               </div>
             </div>
 
-            {/* Social Media Links (Editable Placeholders) */}
+            {/* Official Social Channels */}
             <div className="pt-3">
               <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider block mb-3">
                 Connect With Us
